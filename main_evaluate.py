@@ -1,12 +1,10 @@
 import joblib
 from src.hmm_trainer import HMMTrainer
-from hangman_env import HangmanEnv
+from src.hangman_env import HangmanEnv
 
-# Load model
 trainer = HMMTrainer()
-
-# Initialize game environment
 env = HangmanEnv()
+
 
 # Run 2000 games
 total_games = 2000
